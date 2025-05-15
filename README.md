@@ -30,38 +30,6 @@ WICS/
 │   ├── data.txt               ← Saved text version
 │   ├── data.json              ← Optional: JSON save format
 │   └── data.csv               ← Optional: CSV export format
-# WICS stands for WORKER ID CARD SYSTEM
-A C++ project with sci-fi design to simulate a futiristic worker ID registration 
-
-# Features 
-- Register a new user (worker/w) [id , name , role , country , etc ]
-- Display clean output inspired by futiristic ID card design i found on Pinterest 
-- Save and Load to '.text' , '.json'  or '.csv' formats for impression later maybe 
-- Planned a GUI using ImGUI lib
-## Project Structure
-- src main entry file 
-- worker contain display and logic 
-- worker-save output folder for all saved data 
-
-in short the map is like this == > 
-
-WICS/
-│
-├── README.md                  ← Project description + setup guide
-├── /src/
-│   └── main.cpp               ← Entry point of the program
-│
-├── /worker/
-│   ├── worker.h               ← Struct and function declarations
-│   └── worker.cpp             ← Function implementations (I/O logic)
-│
-├── /display/
-│   └── visual.h               ← Optional: Display layout functions (border, color later, etc.)
-│
-├── /worker-save/
-│   ├── data.txt               ← Saved text version
-│   ├── data.json              ← Optional: JSON save format
-│   └── data.csv               ← Optional: CSV export format
 ├── /config/
 │   └── app_info.h   ← Here defined metadata (app name, version, author)
 
